@@ -57,25 +57,25 @@ String direction_() {
   }
 
  if(Rx>600) {
-    RxDir = "#1";
+    RxDir = "%1";
   }
   else if(Rx<400){
-    RxDir = "#0";
+    RxDir = "%0";
   }
   else
   {
-    RxDir = "#2";
+    RxDir = "%2";
   }
 
   if(Ry>600) {
-    RyDir = "$1";
+    RyDir = "^1";
   }
   else if(Ry<400){
-    RyDir = "$0";
+    RyDir = "^0";
   }
   else
   {
-    RyDir = "$2";
+    RyDir = "^2";
   }
 
   
